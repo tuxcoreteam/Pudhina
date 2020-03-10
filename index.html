@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TuxLab</title>
+<meta name="description" content="A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+">
+
+<link rel="canonical" href="/Pudhina/">
+<link rel="icon" type="image/jpeg" href="/Pudhina/assets/img/pudhina.jpg"/>
+<link rel="stylesheet" href="/Pudhina/assets/vendor/normalize-css/normalize.css">
+<link rel="stylesheet" href="/Pudhina/assets/css/main.css">
+
+<link rel="stylesheet" href="/Pudhina/assets/vendor/highlight/styles/agate.css">
+
+<link rel="stylesheet" href="/Pudhina/assets/vendor/font-awesome/css/font-awesome.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+<header class="header">
+<div class="navigation">
+<a href="/Pudhina/" class="logo">TuxLab</a>
+<ul class="menu">
+<!-- <li class="menu__entry"><a href="/Pudhina/resume">Resume</a></li>
+<li class="menu__entry"><a href="/Pudhina/blog">Blog</a></li> -->
+</ul>
+</div>
+<ul class="social-links">
+
+<!-- <a href="mailto:example@email.com" class="social-links__entry" target="_blank">
+<i class="fa fa-envelope-square"></i>
+</a>
+
+
+<a href="https://github.com/github" class="social-links__entry" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+
+
+<a href="https://in.linkedin.com/in/linkedin" class="social-links__entry" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a> -->
+
+</ul>
+</header>
+<h1 class="page-title">
+<!-- <div class="page-title__text">WELLCOME</div> -->
+<h3 class="page-title__text" id="efeito">SEJA MUITO BEM VINDA MANUELA 💜</h3>
+</h1>
+
+<!-- <p><img src="/Pudhina/assets/img/pudhina.jpg" id="about-img" /></p> -->
+
+<div id="describe-text">
+	<h1>Aprendendo Lógica da Programação</h1>
+	<a href=""><p><i class="fas fa-book"></i> 1. Introdução a Lógica da Programação</p></a>
+	<a href=""><p><i class="fab fa-youtube"></i> 2. Lógica da Programação</p></a>
+	<a href=""><p><i class="fas fa-pen"></i> 3. Exercícios</p></a>
+	<!-- <p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p> -->
+	<!-- <p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p> -->
+</div>
+
+
+<div class="about">
+
+<div class="about__text">
+<!-- <strong> Non sunt multiplicanda entia sine necessitate </strong>
+<br>☕ Pudhina theme by Knhash 🛠️
+<br> You can change this text in _includes/page/about.html
+</div>
+</div> -->
+<div class="about__devider">*****</div>
+</div>
+<script src="/Pudhina/assets/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="https://kit.fontawesome.com/650351a64a.js" crossorigin="anonymous"></script>
+</body>
+<STYle>
+	.page-title__text {
+		position: relative;
+		text-align: center;
+		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+		font-size: 2rem;
+		color: #070101;
+		height: 80px;
+	}
+	  @keyframes blink {
+		0%, 100% {
+		  opacity: 1;
+		}
+		50% {
+		  opacity: 0;
+		}
+	  }
+	 h3::after {
+		content: '|';
+		opacity: 1;
+		margin-left: 5px;
+		display: inline-block;
+		animation: blink .7s infinite;
+	  }
+
+</STYle>
+<Script>
+	const titulo = document.querySelector("#efeito");
+	 typeWriter(titulo);
+	
+	function typeWriter(elemento) {
+	const textoArray = elemento.innerHTML.split('');
+		elemento.innerHTML = '';
+		for(let i = 0; i < textoArray.length; i++) {
+		  setTimeout(() => elemento.innerHTML += textoArray[i], 75* i);
+		}
+	}
+	</Script>
+</html>

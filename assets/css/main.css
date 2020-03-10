@@ -4,7 +4,11 @@
     font-family: 'Quicksand', sans-serif;  
     font-size: 100%;
     color: #012;
-    background-color: #FFF; }
+    background-image: linear-gradient(120deg, #d4fc79 100%, #96e6a1 100%);
+  }
+  h1 {
+    color: rgb(132, 6, 250);
+  }
 
   a {
     color: #57A;
@@ -42,7 +46,7 @@
       font-weight: 400; }
 
   strong {
-    color: #16a085; }
+    color: #ffffff; }
 
   .wrapper {
     max-width: 90%;
@@ -58,7 +62,7 @@
   .logo {
     font-size: 300%;
     font-weight: 700;
-    color: #16a085;
+    color: #fafafa;
     display: block; }
 
   .menu {
